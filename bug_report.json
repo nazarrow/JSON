@@ -1,1 +1,24 @@
-{"text":"There will be more information here soon"}
+{
+    "bugReport":[
+                {
+                "summary": "Information dosn't provide if have more than 7 characters from WS", 
+                "descriprion": "WS dosen't provide information if response containes more than 8 characters",
+                "actualResult": "information gets",
+                "expectedResult": "information doesen't get",
+                "requirementId": "requirement",
+                "reproducedOn": "Win 10",
+                "reproducibility": "always",
+                "workaround": "no",
+                "stepsTOreproduce":[
+                                    {"one": "1. Open FireFox browser",
+                                    "two": "2. Click [RESTClient] icon",
+                                    "three": "3. Request method: POST",
+                                    "four": "4. URL: http://178.124.206.52/app/ws/",
+                                    "five": "5. type in Body: {user:rangarad, strict:false}"
+                                    }
+                                    ],
+                "severity": "minor",
+                "priority": "low"
+                }  
+                ]
+    }
